@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">WychowanieFizyczne</string>
+    <string name="instrukcja_zadania">Instrukcja zadania</string>
+    <string name="img_desc">Przykladowy tytul zdjecia</string>
+    <string name="next_exercise">Następne zadanie</string>
+    <string name="exercise_image_desc">Tytuł zdjecia</string>
+    <string name="exercise_desc">Stań prosto, nogi na szerokość ramion. Zegnij się w pasie i dotknij dłońmi podłogi, utrzymując nogi prosto. Powoli wróć do pozycji wyjściowej.</string>
+    <string name="reklama">Reklama</string>
+    <string name="przekazana_grafika">Przekazana grafika</string>
 </resources>
