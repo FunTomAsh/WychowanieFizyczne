@@ -1,36 +1,28 @@
-{
-  "wychfiz": [
-    {
+{"wychfiz": [{
+
       "dailyEx":{
         "day": 1,
         "finished" : false,
         "exercises": [
-          {
-            "exercises": {
-              "exNr": 1,
-              "exName": "PushUps",
-              "exDesc": "Make 10 pushups.",
-              "imageName": "pushups.png"
-            }
-          },
+          {"exercises": { "exNr": 1, "exName": "PushUps", "exDesc": "Make 10 pushups.", "imageName": "pushups.png"}},
+          {"exercises": { "exNr": 2, "exName": "PullUps", "exDesc": "Make 10 pullups.", "imageName": "pullups.png"}},
+          {"exercises": { "exNr": 3, "exName": "PullUps", "exDesc": "Make 10 pullups.", "imageName": "pullups.png"}},
+          {"exercises": { "exNr": 4, "exName": "PullUps", "exDesc": "Make 10 pullups.", "imageName": "pullups.png"}},
+          {"exercises": { "exNr": 5, "exName": "PullUps", "exDesc": "Make 10 pullups.", "imageName": "pullups.png"}}
+        ]
+      },
 
-          {
-            "exercises": {
-              "exNr": 2,
-              "exName": "PullUps",
-              "exDesc": "Make 10 pullups.",
-              "imageName": "pullups.png"
-            }
-          }
-
+      "dailyEx":{
+        "day": 2,
+        "finished" : false,
+        "exercises": [
+          {"exercises": { "exNr": 1, "exName": "PushUps", "exDesc": "Make 10 pushups.", "imageName": "pushups.png"}},
+          {"exercises": { "exNr": 2, "exName": "PullUps", "exDesc": "Make 10 pullups.", "imageName": "pullups.png"}},
+          {"exercises": { "exNr": 3, "exName": "PullUps", "exDesc": "Make 10 pullups.", "imageName": "pullups.png"}},
+          {"exercises": { "exNr": 4, "exName": "PullUps", "exDesc": "Make 10 pullups.", "imageName": "pullups.png"}},
+          {"exercises": { "exNr": 5, "exName": "PullUps", "exDesc": "Make 10 pullups.", "imageName": "pullups.png"}}
         ]
       }
 
 
-
-
-
-    }
-
-  ]
-}
+    }]}
