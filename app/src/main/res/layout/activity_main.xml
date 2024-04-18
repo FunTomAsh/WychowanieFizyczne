@@ -7,13 +7,382 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/startButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical">
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_completed"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 1"
+                android:textColor="@drawable/text_completed"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 2"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 3"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rest_button"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 4"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 5"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 6"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 7"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rest_button"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 8"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 9"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 10"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 11"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rest_button"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 12"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 13"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 14"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 15"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rest_button"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 16"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 17"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 18"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 19"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rest_button"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 20"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 21"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 22"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 23"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rest_button"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 24"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 25"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 26"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 27"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/rest_button"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 28"
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 29"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/button_background"
+                android:padding="12dp"
+                app:backgroundTint="@null"
+                android:text="Dzień 30"
+                android:textColor="@drawable/text_background"
+                android:textSize="22dp"
+                android:layout_margin="4dp"/>
+
+
+
+
+        </GridLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:paddingHorizontal="4dp"
+        android:text="Start"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
