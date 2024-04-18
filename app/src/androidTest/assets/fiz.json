@@ -1,0 +1,29 @@
+{
+  "wychfiz": [
+    {
+      "dailyex":{
+        "day": 1,
+        "finished" : false,
+        "excersises": [
+          {
+            "excersise": {
+              "exNr": 1,
+              "exName": "PushUps",
+              "exDesc": "Make 10 pushups.",
+              "imageName": "pushups.png"
+            }
+          },
+          {
+            "excersise": {
+              "exNr": 2,
+              "exName": "PullUps",
+              "exDesc": "Make 10 pullups.",
+              "imageName": "pullups.png"
+            }
+          }
+        ]
+      }
+    }
+
+  ]
+}
