@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Button Btn1 = findViewById(R.id.button1);
-        /*final Button Btn2 = findViewById(R.id.button2);
+        final Button Btn2 = findViewById(R.id.button2);
         final Button Btn3 = findViewById(R.id.button3);
         final Button Btn5 = findViewById(R.id.button5);
         final Button Btn6 = findViewById(R.id.button6);
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         final Button Btn26 = findViewById(R.id.button26);
         final Button Btn27 = findViewById(R.id.button27);
         final Button Btn29 = findViewById(R.id.button29);
-        final Button Btn30 = findViewById(R.id.button30);*/
+        final Button Btn30 = findViewById(R.id.button30);
 
         try {
             JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
@@ -86,27 +86,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        /*try {
-            JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
 
-            if (jsonData != null) {
-                // Get the keys of the JSON object
-                Iterator<String> keys = jsonData.keys();
-                while (keys.hasNext()) {
-                    String key = keys.next();
-                    if (jsonData.get(key) instanceof JSONObject) {
-                        JSONObject dailyExercises = jsonData.getJSONObject(key);
-                        int day = dailyExercises.getInt("day");
-                        boolean finished = dailyExercises.getBoolean("finished");
-                        System.out.println("dzień: " + day + " " + finished);
-                        // Update button based on finished status
-                        updateButton(day, finished);
-                    }
-                }
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }*/
 
         Btn1.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -114,6 +94,186 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, LoadDay.class);
                     intent.putExtra("selectedDay", Btn1.getText());
                     startActivity(intent);
+            }
+        });
+        Btn2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn2.getText());
+                startActivity(intent);
+            }
+        });
+        Btn3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn3.getText());
+                startActivity(intent);
+            }
+        });
+        Btn5.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn5.getText());
+                startActivity(intent);
+            }
+        });
+        Btn6.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn6.getText());
+                startActivity(intent);
+            }
+        });
+        Btn7.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn7.getText());
+                startActivity(intent);
+            }
+        });
+        Btn9.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn9.getText());
+                startActivity(intent);
+            }
+        });
+        Btn10.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn10.getText());
+                startActivity(intent);
+            }
+        });
+        Btn11.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn11.getText());
+                startActivity(intent);
+            }
+        });
+        Btn13.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn13.getText());
+                startActivity(intent);
+            }
+        });
+        Btn14.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn14.getText());
+                startActivity(intent);
+            }
+        });
+        Btn15.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn15.getText());
+                startActivity(intent);
+            }
+        });
+
+        Btn17.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn17.getText());
+                startActivity(intent);
+            }
+        });
+        Btn18.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn18.getText());
+                startActivity(intent);
+            }
+        });
+        Btn19.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn19.getText());
+                startActivity(intent);
+            }
+        });
+
+        Btn21.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn21.getText());
+                startActivity(intent);
+            }
+        });
+        Btn22.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn22.getText());
+                startActivity(intent);
+            }
+        });
+        Btn23.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn23.getText());
+                startActivity(intent);
+            }
+        });
+
+        Btn25.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn25.getText());
+                startActivity(intent);
+            }
+        });
+        Btn26.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn26.getText());
+                startActivity(intent);
+            }
+        });
+        Btn27.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn27.getText());
+                startActivity(intent);
+            }
+        });
+
+        Btn29.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn29.getText());
+                startActivity(intent);
+            }
+        });
+        Btn30.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadDay.class);
+                intent.putExtra("selectedDay", Btn30.getText());
+                startActivity(intent);
             }
         });
     }
