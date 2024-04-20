@@ -1,6 +1,7 @@
 package com.example.wychowaniefizyczne;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+
 public class LoadDay extends AppCompatActivity{
     private TextView dayText;
     private TextView[] exerciseTextViews;
@@ -69,7 +74,32 @@ public class LoadDay extends AppCompatActivity{
 
     // Parse JSON data and extract exercise names for the selected day
     private void updateTextViews(int day) {
+
         try {
+            JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
+
+            if (jsonData != null) {
+                JSONArray dailyExercises = jsonData.getJSONArray("dailyEx");
+
+                for (int i = 0; i < dailyExercises.length(); i++) {
+                    JSONObject dailyExercise = dailyExercises.getJSONObject(i);
+                    if (dailyExercise.getInt("day") == day){
+                        for (int j = 0; j <  exerciseTextViews.length; j++){
+                            JSONObject exercise = dailyExercises.getJSONObject(day)
+                                    .getJSONArray("exercises").getJSONObject(j)
+                                    .getJSONObject("exercise");
+                            String exerciseName = exercise.getString("exName");
+                            exerciseTextViews[j].setText(exerciseName);
+                            System.out.println("Wstawiono nazwe : " + j);
+                        }
+
+                    }
+                }
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        /*try {
             JSONArray dailyExercises = new JSONArray(jsonData);
 
             for (int i = 0; i < exerciseTextViews.length; i++) {
@@ -81,7 +111,7 @@ public class LoadDay extends AppCompatActivity{
             }
         } catch (JSONException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
     // Convert button text to corresponding day number
@@ -91,5 +121,22 @@ public class LoadDay extends AppCompatActivity{
         String[] parts = buttonText.split(" ");
         //System.out.println("NRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR: " + parts[1]);
         return Integer.parseInt(parts[1]);
+    }
+
+    private JSONObject loadJSONFromAsset(Context context, String fileName) {
+        String json = null;
+        try {
+            InputStream inputStream = context.getAssets().open(fileName);
+            System.out.println("udallo sie otworzyc assets");
+            int size = inputStream.available();
+            byte[] buffer = new byte[size];
+            inputStream.read(buffer);
+            inputStream.close();
+            json = new String(buffer, "UTF-8");
+            return new JSONObject(json);
+        } catch (IOException | JSONException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 }
