@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/reklama"
+        android:text="reklama"
         android:gravity="center"
         android:background="#CCCCCC"
         android:padding="16dp"/>
@@ -21,10 +21,10 @@
         android:layout_height="0dp"
         android:layout_weight="3"
         android:src="@drawable/example_exercise_image"
-        android:contentDescription="@string/exercise_image_desc"
+        android:contentDescription="exercise_image_desc"
         android:background="#B2DFDB"
         android:padding="16dp"
-        android:text="@string/przekazana_grafika"
+        android:text="przekazana_grafika"
         android:scaleType="fitCenter"/>
 
     <!-- Tekstowy opis zadania -->
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:text="@string/exercise_desc"
+        android:text="exercise_desc"
         android:gravity="center"
         android:background="#C8E6C9"
         android:padding="16dp"/>
@@ -43,7 +43,7 @@
         android:id="@+id/button_next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/next_exercise"
+        android:text="next_exercise"
         android:background="#FFCCBC"
         android:padding="16dp"/>
 
