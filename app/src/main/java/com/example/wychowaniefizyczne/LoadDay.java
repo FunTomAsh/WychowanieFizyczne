@@ -16,7 +16,6 @@ import org.json.JSONObject;
 public class LoadDay extends AppCompatActivity{
     private TextView dayText;
     private TextView[] exerciseTextViews;
-    private Button startButton;
     private String jsonData;
 
     @SuppressLint("WrongViewCast")
@@ -25,6 +24,7 @@ public class LoadDay extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
+        final Button startB = findViewById(R.id.startButton);
         final ImageView backBtn = findViewById(R.id.backBtn);
         final String getSelectedDayName = getIntent().getStringExtra("selectedDay");
 
@@ -38,8 +38,13 @@ public class LoadDay extends AppCompatActivity{
         };
         dayText.setText(getSelectedDayName);
 
+
+
         JSONObject jsonObject = JsonReader.loadJSONFromAsset(getApplicationContext(), "fiz.json");
         jsonData = String.valueOf(jsonObject);
+
+        int day = getDayFromButtonText(getSelectedDayName);
+        updateTextViews(day);
 
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,8 +53,18 @@ public class LoadDay extends AppCompatActivity{
                 finish();
             }
         });
-        int day = getDayFromButtonText(getSelectedDayName);
-        updateTextViews(day);
+
+        startB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoadDay.this, SingleExerciseActivity.class);
+                intent.putExtra("selectedDay", getSelectedDayName);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+
     }
 
     // Parse JSON data and extract exercise names for the selected day
@@ -74,6 +89,7 @@ public class LoadDay extends AppCompatActivity{
         // Extract the day number from the button text
         // For example, if buttonText is "Dzień 1", return 1
         String[] parts = buttonText.split(" ");
+        //System.out.println("NRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR: " + parts[1]);
         return Integer.parseInt(parts[1]);
     }
 }

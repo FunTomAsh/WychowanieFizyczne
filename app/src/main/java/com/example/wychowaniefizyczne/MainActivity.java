@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
         String json = null;
         try {
             InputStream inputStream = context.getAssets().open(fileName);
+            System.out.println("udallo sie otworzyc assets");
             int size = inputStream.available();
             byte[] buffer = new byte[size];
             inputStream.read(buffer);
