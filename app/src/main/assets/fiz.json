@@ -1,5 +1,5 @@
 {
-      "dailyEx":{
+      "dailyEx":[{
         "day": 1,
         "finished" : false,
         "exercises": [
@@ -10,8 +10,7 @@
           {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę, starając się utrzymać równomierny rytm."}}
         ]
       },
-
-      "dailyEx":{
+        {
         "day": 2,
         "finished" : false,
         "exercises": [
@@ -22,8 +21,7 @@
           {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "pullups.png", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 30 sekund, dbając o prostą linię od głowy do pięt."}}
         ]
       },
-
-    "dailyEx":{
+        {
       "day": 3,
       "finished" : false,
       "exercises": [
@@ -33,9 +31,7 @@
         {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę, starając się utrzymać równomierny rytm."}},
         {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "pullups.png", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}}
       ]
-    },
-
-  "dailyEx":{
+    }, {
     "day": 5,
     "finished" : false,
     "exercises": [
@@ -45,9 +41,7 @@
       {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "pullups.png", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 12 powtórzeń na każdą stronę."}},
       {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę i 30 sekund, starając się utrzymać równomierny rytm."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 6,
     "finished" : false,
     "exercises": [
@@ -57,9 +51,7 @@
       {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pullups.png", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 13 razy."}},
       {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "pullups.png", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 45 sekund, dbając o prostą linię od głowy do pięt."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 7,
     "finished" : false,
     "exercises": [
@@ -69,9 +61,7 @@
       {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę i 30 sekund, starając się utrzymać równomierny rytm."}},
       {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "pullups.png", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 20 powtórzeń."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 9,
     "finished" : false,
     "exercises": [
@@ -81,9 +71,7 @@
       {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "pullups.png", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 15 powtórzeń na każdą stronę."}},
       {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę i 45 sekund, starając się utrzymać równomierny rytm."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 10,
     "finished" : false,
     "exercises": [
@@ -93,9 +81,7 @@
       {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pullups.png", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 15 razy."}},
       {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "pullups.png", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę, dbając o prostą linię od głowy do pięt."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 11,
     "finished" : false,
     "exercises": [
@@ -105,9 +91,7 @@
       {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę i 45 sekund, starając się utrzymać równomierny rytm."}},
       {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "pullups.png", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 15 powtórzeń."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 13,
     "finished" : false,
     "exercises": [
@@ -117,9 +101,7 @@
       {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "pullups.png", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 18 powtórzeń na każdą stronę."}},
       {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 2 minuty, starając się utrzymać równomierny rytm."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 14,
     "finished" : false,
     "exercises": [
@@ -129,9 +111,7 @@
       {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pullups.png", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 18 razy."}},
       {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "pullups.png", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę i 15 sekund, dbając o prostą linię od głowy do pięt."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 15,
     "finished" : false,
     "exercises": [
@@ -141,9 +121,7 @@
       {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 2 minuty, starając się utrzymać równomierny rytm."}},
       {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "pullups.png", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 18 powtórzeń."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 17,
     "finished" : false,
     "exercises": [
@@ -153,9 +131,7 @@
       {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "pullups.png", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 20 powtórzeń na każdą stronę."}},
       {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 2 minuty i 30 sekund, starając się utrzymać równomierny rytm."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 18,
     "finished" : false,
     "exercises": [
@@ -165,9 +141,7 @@
       {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pullups.png", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 20 razy."}},
       {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "pullups.png", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę i 30 sekund, dbając o prostą linię od głowy do pięt."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 19,
     "finished" : false,
     "exercises": [
@@ -177,9 +151,7 @@
       {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 2 minuty i 30 sekund, starając się utrzymać równomierny rytm."}},
       {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "pullups.png", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 20 powtórzeń."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 21,
     "finished" : false,
     "exercises": [
@@ -189,9 +161,7 @@
       {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "pullups.png", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 22 powtórzenia na każdą stronę."}},
       {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 3 minuty, starając się utrzymać równomierny rytm."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 22,
     "finished" : false,
     "exercises": [
@@ -201,9 +171,7 @@
       {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pullups.png", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 22 razy."}},
       {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "pullups.png", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę o 45 sekund, dbając o prostą linię od głowy do pięt."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 23,
     "finished" : false,
     "exercises": [
@@ -213,9 +181,7 @@
       {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 3 minuty, starając się utrzymać równomierny rytm."}},
       {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "pullups.png", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 22 powtórzeń."}}
     ]
-  },
-
-  "dailyEx":{
+  },{
     "day": 25,
     "finished" : false,
     "exercises": [
@@ -225,9 +191,7 @@
       {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "pullups.png", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 25 powtórzeń na każdą stronę."}},
       {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 3 minuty i 30 sekund, starając się utrzymać równomierny rytm."}}
     ]
-  },
-
-  "dailyEx":{
+  },{
     "day": 26,
     "finished" : false,
     "exercises": [
@@ -237,9 +201,7 @@
       {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pullups.png", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 25 razy."}},
       {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "pullups.png", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 2 minuty, dbając o prostą linię od głowy do pięt."}}
     ]
-  },
-
-  "dailyEx":{
+  }, {
     "day": 27,
     "finished" : false,
     "exercises": [
@@ -249,8 +211,7 @@
       {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 3 minuty i 30 sekund, starając się utrzymać równomierny rytm."}},
       {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "pullups.png", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 25 powtórzeń."}}
     ]
-  },
-  "dailyEx":{
+  },{
     "day": 29,
     "finished" : false,
     "exercises": [
@@ -260,9 +221,7 @@
       {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "pullups.png", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 28 powtórzeń na każdą stronę."}},
       {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 4 minuty, starając się utrzymać równomierny rytm."}}
     ]
-  },
-
-  "dailyEx":{
+  },{
     "day": 30,
     "finished" : false,
     "exercises": [
@@ -272,5 +231,5 @@
       {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "pullups.png", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 4 minuty, starając się utrzymać równomierny rytm."}},
       {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "pullups.png", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 28 powtórzeń."}}
     ]
-  }
+  }]
 }

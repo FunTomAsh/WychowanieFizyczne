@@ -23,6 +23,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Iterator;
 //import com.dudegym.dudefitnessworkout.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -85,6 +86,27 @@ public class MainActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+        /*try {
+            JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
+
+            if (jsonData != null) {
+                // Get the keys of the JSON object
+                Iterator<String> keys = jsonData.keys();
+                while (keys.hasNext()) {
+                    String key = keys.next();
+                    if (jsonData.get(key) instanceof JSONObject) {
+                        JSONObject dailyExercises = jsonData.getJSONObject(key);
+                        int day = dailyExercises.getInt("day");
+                        boolean finished = dailyExercises.getBoolean("finished");
+                        System.out.println("dzień: " + day + " " + finished);
+                        // Update button based on finished status
+                        updateButton(day, finished);
+                    }
+                }
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }*/
 
         Btn1.setOnClickListener(new View.OnClickListener(){
             @Override
