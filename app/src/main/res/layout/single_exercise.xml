@@ -6,12 +6,22 @@
     android:padding="16dp">
 
     <!-- Miejsce na Reklamę -->
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="reklama"
+        android:src="@drawable/ad"
         android:gravity="center"
         android:background="#CCCCCC"
+        android:padding="14dp"/>
+    <!-- Numer zadania-->
+    <TextView
+        android:id="@+id/exerNr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0/5"
+        android:textSize="16dp"
+        android:gravity="right"
+        android:background="#FFFFFF"
         android:padding="16dp"/>
 
     <!-- Grafika instruktażowa Placeholder -->
@@ -27,13 +37,25 @@
         android:text="przekazana_grafika"
         android:scaleType="fitCenter"/>
 
+    <!-- Tekstowa nazwa zadania -->
+    <TextView
+        android:id="@+id/text_exercise_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nazwa zadania"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:background="#DFB1B1"
+        android:padding="16dp"/>
+
     <!-- Tekstowy opis zadania -->
     <TextView
         android:id="@+id/text_exercise_description"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:text="exercise_desc"
+        android:text="Opis zadania"
+        android:textSize="16dp"
         android:gravity="center"
         android:background="#C8E6C9"
         android:padding="16dp"/>
@@ -43,7 +65,8 @@
         android:id="@+id/button_next_exerc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="next_exercise"
+        android:text="Następne zadanie"
+        android:textSize="20dp"
         android:background="#FFCCBC"
         android:padding="16dp"/>
 

@@ -72,7 +72,7 @@ public class LoadDay extends AppCompatActivity{
 
     }
 
-    // Parse JSON data and extract exercise names for the selected day
+    // Parsowanie JSONa i ekstrakcja danych w zależności od dnia
     private void updateTextViews(int day) {
 
         try {
@@ -99,25 +99,11 @@ public class LoadDay extends AppCompatActivity{
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        /*try {
-            JSONArray dailyExercises = new JSONArray(jsonData);
-
-            for (int i = 0; i < exerciseTextViews.length; i++) {
-                JSONObject exercise = dailyExercises.getJSONObject(day)
-                        .getJSONArray("exercises").getJSONObject(i)
-                        .getJSONObject("exercise");
-                String exerciseName = exercise.getString("exName");
-                exerciseTextViews[i].setText(exerciseName);
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }*/
     }
 
-    // Convert button text to corresponding day number
+    // Konwercja tekstu przycisku "Dzień n"
     private int getDayFromButtonText(String buttonText) {
-        // Extract the day number from the button text
-        // For example, if buttonText is "Dzień 1", return 1
+        // Np, jeżeli "Dzień 1", zwraca 1
         String[] parts = buttonText.split(" ");
         //System.out.println("NRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR: " + parts[1]);
         return Integer.parseInt(parts[1]);

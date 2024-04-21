@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                     int day = dailyExercise.getInt("day");
                     boolean finished = dailyExercise.getBoolean("finished");
                     System.out.println("dzień: " + day + " " + finished);
-                    // Update button based on finished status
+                    // Aktualizacja przycisków w zależności od statusa ich ukończenia
                     updateButton(day, finished);
                 }
             }
