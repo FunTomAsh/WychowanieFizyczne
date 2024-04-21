@@ -61,7 +61,21 @@ public class SingleExerciseActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (curEx < 5){
+                    exNum.setText(exNr[curEx]+"/5");
+                    resourceId = getResources().getIdentifier(exImg[curEx], "drawable", getPackageName());
+                    exImage.setImageResource(resourceId);
+                    exerciseNameTextView.setText(exNames[curEx]);
+                    exerciseDescTextView.setText(exDescriptions[curEx]);
+                    if(curEx==4){
+                        nextBut.setText("Koniec");
+                    }
                     curEx++;
+                }
+                else{
+                    //TU TRZEBA DOPISAĆ ZMIANE STATUSU W JSONIE
+                    Intent intent = new Intent(SingleExerciseActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
                 }
  /*               Intent intent = new Intent(SingleExerciseActivity.this, MainActivity.class);
                 intent.putExtra("selectedDay", getSelectedDayName);

@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="3"
-        android:src="@drawable/example_exercise_image"
+        android:src="@drawable/logo"
         android:contentDescription="exercise_image_desc"
         android:background="#B2DFDB"
         android:padding="16dp"
