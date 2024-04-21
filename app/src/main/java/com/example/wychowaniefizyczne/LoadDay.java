@@ -85,7 +85,7 @@ public class LoadDay extends AppCompatActivity{
                     JSONObject dailyExercise = dailyExercises.getJSONObject(i);
                     if (dailyExercise.getInt("day") == day){
                         for (int j = 0; j <  exerciseTextViews.length; j++){
-                            JSONObject exercise = dailyExercises.getJSONObject(day)
+                            JSONObject exercise = dailyExercises.getJSONObject(i)
                                     .getJSONArray("exercises").getJSONObject(j)
                                     .getJSONObject("exercise");
                             String exerciseName = exercise.getString("exName");
