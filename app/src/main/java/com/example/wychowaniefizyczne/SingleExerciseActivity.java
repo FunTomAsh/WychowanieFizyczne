@@ -6,11 +6,12 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -18,6 +19,12 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 
 public class SingleExerciseActivity extends AppCompatActivity {
 
@@ -71,8 +78,8 @@ public class SingleExerciseActivity extends AppCompatActivity {
                     }
                     curEx++;
                 }
-                else{
-                    //TU TRZEBA DOPISAĆ ZMIANE STATUSU W JSONIE
+                else {
+                    markDayAsFinished(curDay);
                     Intent intent = new Intent(SingleExerciseActivity.this, MainActivity.class);
                     startActivity(intent);
                     finish();
@@ -144,4 +151,47 @@ public class SingleExerciseActivity extends AppCompatActivity {
             return null;
         }
     }
+
+    public void markDayAsFinished(int day) {
+        try {
+            JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
+            if (jsonData != null) {
+                JSONArray dailyExercises = jsonData.getJSONArray("dailyEx");
+                for (int i = 0; i < dailyExercises.length(); i++) {
+                    JSONObject dailyExercise = dailyExercises.getJSONObject(i);
+                    if (dailyExercise.getInt("day") == day) {
+                        dailyExercise.put("finished", true);
+                        break;
+                    }
+                }
+                saveJSONToAsset(jsonData);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void saveJSONToAsset(JSONObject jsonData) {
+
+        new Thread(() -> {
+            File file = new File(getFilesDir(), "fiz.json");
+            try (FileWriter fileWriter = new FileWriter(file)) {
+                String dataString = jsonData.toString();
+
+                Log.d("SaveJSON", "JSON to save: " + dataString);
+                fileWriter.write(dataString);
+
+                Log.d("SaveJSON", "Data saved successfully");
+                runOnUiThread(() -> Toast.makeText(getApplicationContext(), "Data saved successfully", Toast.LENGTH_SHORT).show());
+            } catch (IOException e) {
+                Log.e("SaveJSON", "Error saving data", e);
+                runOnUiThread(() -> Toast.makeText(getApplicationContext(), "Failed to save data", Toast.LENGTH_SHORT).show());
+            }
+        }).start();
+    }
+
+
+
+
+
 }
