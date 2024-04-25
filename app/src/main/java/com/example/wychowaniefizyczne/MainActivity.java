@@ -50,24 +50,31 @@ public class MainActivity extends AppCompatActivity {
         final Button Btn1 = findViewById(R.id.button1);
         final Button Btn2 = findViewById(R.id.button2);
         final Button Btn3 = findViewById(R.id.button3);
+        final Button Btn4 = findViewById(R.id.button4);
         final Button Btn5 = findViewById(R.id.button5);
         final Button Btn6 = findViewById(R.id.button6);
         final Button Btn7 = findViewById(R.id.button7);
+        final Button Btn8 = findViewById(R.id.button8);
         final Button Btn9 = findViewById(R.id.button9);
         final Button Btn10 = findViewById(R.id.button10);
         final Button Btn11 = findViewById(R.id.button11);
+        final Button Btn12 = findViewById(R.id.button12);
         final Button Btn13 = findViewById(R.id.button13);
         final Button Btn14 = findViewById(R.id.button14);
         final Button Btn15 = findViewById(R.id.button15);
+        final Button Btn16 = findViewById(R.id.button16);
         final Button Btn17 = findViewById(R.id.button17);
         final Button Btn18 = findViewById(R.id.button18);
         final Button Btn19 = findViewById(R.id.button19);
+        final Button Btn20 = findViewById(R.id.button20);
         final Button Btn21 = findViewById(R.id.button21);
         final Button Btn22 = findViewById(R.id.button22);
         final Button Btn23 = findViewById(R.id.button23);
+        final Button Btn24 = findViewById(R.id.button24);
         final Button Btn25 = findViewById(R.id.button25);
         final Button Btn26 = findViewById(R.id.button26);
         final Button Btn27 = findViewById(R.id.button27);
+        final Button Btn28 = findViewById(R.id.button28);
         final Button Btn29 = findViewById(R.id.button29);
         final Button Btn30 = findViewById(R.id.button30);
 
@@ -130,6 +137,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Btn4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadFreeDay.class);
+                intent.putExtra("selectedDay", Btn4.getText());
+                startActivity(intent);
+            }
+        });
         Btn5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -151,6 +166,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(MainActivity.this, LoadDay.class);
                 intent.putExtra("selectedDay", Btn7.getText());
+                startActivity(intent);
+            }
+        });
+        Btn8.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadFreeDay.class);
+                intent.putExtra("selectedDay", Btn8.getText());
                 startActivity(intent);
             }
         });
@@ -178,6 +201,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Btn12.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadFreeDay.class);
+                intent.putExtra("selectedDay", Btn12.getText());
+                startActivity(intent);
+            }
+        });
         Btn13.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -202,7 +233,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        Btn16.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadFreeDay.class);
+                intent.putExtra("selectedDay", Btn16.getText());
+                startActivity(intent);
+            }
+        });
         Btn17.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -227,7 +265,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        Btn20.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadFreeDay.class);
+                intent.putExtra("selectedDay", Btn20.getText());
+                startActivity(intent);
+            }
+        });
         Btn21.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -252,7 +297,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        Btn24.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadFreeDay.class);
+                intent.putExtra("selectedDay", Btn24.getText());
+                startActivity(intent);
+            }
+        });
         Btn25.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -277,7 +329,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        Btn28.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(MainActivity.this, LoadFreeDay.class);
+                intent.putExtra("selectedDay", Btn28.getText());
+                startActivity(intent);
+            }
+        });
         Btn29.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

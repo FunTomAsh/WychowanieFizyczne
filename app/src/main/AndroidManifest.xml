@@ -19,6 +19,9 @@
             android:name=".LoadDay"
             android:exported="false" />
         <activity
+            android:name=".LoadFreeDay"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
