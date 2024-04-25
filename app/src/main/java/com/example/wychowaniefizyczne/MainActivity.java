@@ -21,6 +21,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Iterator;
@@ -68,12 +71,27 @@ public class MainActivity extends AppCompatActivity {
         final Button Btn29 = findViewById(R.id.button29);
         final Button Btn30 = findViewById(R.id.button30);
 
+        File jsonFile = new File(getFilesDir(), "fiz.json");
+        if (!jsonFile.exists()) {
+            try (InputStream inputStream = getAssets().open("fiz.json");
+                 FileOutputStream outputStream = new FileOutputStream(jsonFile)) {
+                byte[] buffer = new byte[1024];
+                int length;
+                while ((length = inputStream.read(buffer)) > 0) {
+                    outputStream.write(buffer, 0, length);
+                }
+                outputStream.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
         try {
-            JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
+            //JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
+            JSONObject jsonData = loadJSONFromFile("fiz.json");
 
             if (jsonData != null) {
                 JSONArray dailyExercises = jsonData.getJSONArray("dailyEx");
-
                 for (int i = 0; i < dailyExercises.length(); i++) {
                     JSONObject dailyExercise = dailyExercises.getJSONObject(i);
                     int day = dailyExercise.getInt("day");
@@ -295,7 +313,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private JSONObject loadJSONFromAsset(Context context, String fileName) {
+    /*private JSONObject loadJSONFromAsset(Context context, String fileName) {
         String json = null;
         try {
             InputStream inputStream = context.getAssets().open(fileName);
@@ -305,6 +323,21 @@ public class MainActivity extends AppCompatActivity {
             inputStream.read(buffer);
             inputStream.close();
             json = new String(buffer, "UTF-8");
+            return new JSONObject(json);
+        } catch (IOException | JSONException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }*/
+
+    private JSONObject loadJSONFromFile(String fileName) {
+        try {
+            File file = new File(getFilesDir(), fileName);
+            FileInputStream fis = new FileInputStream(file);
+            byte[] data = new byte[(int) file.length()];
+            fis.read(data);
+            fis.close();
+            String json = new String(data, "UTF-8");
             return new JSONObject(json);
         } catch (IOException | JSONException e) {
             e.printStackTrace();

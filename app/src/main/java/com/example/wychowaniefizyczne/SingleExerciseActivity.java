@@ -17,6 +17,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -34,10 +35,10 @@ public class SingleExerciseActivity extends AppCompatActivity {
     private TextView exerciseDescTextView;
     private String jsonData;
 
-    private int[] exNr = new int[5];
-    private String[] exNames = new String[5];
-    private String[] exDescriptions = new String[5];
-    private String[] exImg = new String[5];
+    private int[] exNr = new int[6];
+    private String[] exNames = new String[6];
+    private String[] exDescriptions = new String[6];
+    private String[] exImg = new String[6];
     int curEx = 1;
     int resourceId;
 
@@ -59,21 +60,22 @@ public class SingleExerciseActivity extends AppCompatActivity {
         int curDay = getDayFromButtonText(getSelectedDay);
         System.out.println("DDDDDDDDDDDDDDDDzien: " + curDay);
 
-        JSONObject jsonObject = JsonReader.loadJSONFromAsset(getApplicationContext(), "fiz.json");
-        jsonData = String.valueOf(jsonObject);
+        //JSONObject jsonObject = JsonReader.loadJSONFromAsset(getApplicationContext(), "fiz.json");
+        JSONObject jsonDat = loadJSONFromFile("fiz.json");
+        jsonData = String.valueOf(jsonDat);
 
         updateTextView(curDay);
 
         nextBut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (curEx < 5){
-                    exNum.setText(exNr[curEx]+"/5");
+                if (curEx < 6){
+                    exNum.setText(exNr[curEx]+"/6");
                     resourceId = getResources().getIdentifier(exImg[curEx], "drawable", getPackageName());
                     exImage.setImageResource(resourceId);
                     exerciseNameTextView.setText(exNames[curEx]);
                     exerciseDescTextView.setText(exDescriptions[curEx]);
-                    if(curEx==4){
+                    if(curEx==5){
                         nextBut.setText("Koniec");
                     }
                     curEx++;
@@ -96,8 +98,8 @@ public class SingleExerciseActivity extends AppCompatActivity {
     private void updateTextView(int day) {
 
         try {
-            JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
-
+            //JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
+            JSONObject jsonData = loadJSONFromFile("fiz.json");
             if (jsonData != null) {
                 JSONArray dailyExercises = jsonData.getJSONArray("dailyEx");
 
@@ -116,7 +118,7 @@ public class SingleExerciseActivity extends AppCompatActivity {
 
                     }
                 }
-                exNum.setText(exNr[0]+"/5");
+                exNum.setText(exNr[0]+"/6");
                 resourceId = getResources().getIdentifier(exImg[0], "drawable", getPackageName());
                 exImage.setImageResource(resourceId);
                 exerciseNameTextView.setText(exNames[0]);
@@ -135,7 +137,7 @@ public class SingleExerciseActivity extends AppCompatActivity {
         return Integer.parseInt(parts[1]);
     }
 
-    private JSONObject loadJSONFromAsset(Context context, String fileName) {
+    /*private JSONObject loadJSONFromAsset(Context context, String fileName) {
         String json = null;
         try {
             InputStream inputStream = context.getAssets().open(fileName);
@@ -150,11 +152,25 @@ public class SingleExerciseActivity extends AppCompatActivity {
             e.printStackTrace();
             return null;
         }
+    }*/
+    private JSONObject loadJSONFromFile(String fileName) {
+        try {
+            File file = new File(getFilesDir(), fileName);
+            FileInputStream fis = new FileInputStream(file);
+            byte[] data = new byte[(int) file.length()];
+            fis.read(data);
+            fis.close();
+            String json = new String(data, "UTF-8");
+            return new JSONObject(json);
+        } catch (IOException | JSONException e) {
+            e.printStackTrace();
+            return null;
+        }
     }
-
     public void markDayAsFinished(int day) {
         try {
-            JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
+            JSONObject jsonData = loadJSONFromFile("fiz.json");
+            //JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
             if (jsonData != null) {
                 JSONArray dailyExercises = jsonData.getJSONArray("dailyEx");
                 for (int i = 0; i < dailyExercises.length(); i++) {

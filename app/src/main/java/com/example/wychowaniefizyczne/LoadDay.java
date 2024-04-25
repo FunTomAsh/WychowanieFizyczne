@@ -15,6 +15,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -39,7 +41,8 @@ public class LoadDay extends AppCompatActivity{
                 findViewById(R.id.text_zad2),
                 findViewById(R.id.text_zad3),
                 findViewById(R.id.text_zad4),
-                findViewById(R.id.text_zad5)
+                findViewById(R.id.text_zad5),
+                findViewById(R.id.text_zad6)
         };
         dayText.setText(getSelectedDayName);
 
@@ -76,8 +79,8 @@ public class LoadDay extends AppCompatActivity{
     private void updateTextViews(int day) {
 
         try {
-            JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
-
+            //JSONObject jsonData = loadJSONFromAsset(getApplicationContext(), "fiz.json");
+            JSONObject jsonData = loadJSONFromFile("fiz.json");
             if (jsonData != null) {
                 JSONArray dailyExercises = jsonData.getJSONArray("dailyEx");
 
@@ -109,7 +112,7 @@ public class LoadDay extends AppCompatActivity{
         return Integer.parseInt(parts[1]);
     }
 
-    private JSONObject loadJSONFromAsset(Context context, String fileName) {
+    /*private JSONObject loadJSONFromAsset(Context context, String fileName) {
         String json = null;
         try {
             InputStream inputStream = context.getAssets().open(fileName);
@@ -119,6 +122,21 @@ public class LoadDay extends AppCompatActivity{
             inputStream.read(buffer);
             inputStream.close();
             json = new String(buffer, "UTF-8");
+            return new JSONObject(json);
+        } catch (IOException | JSONException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }*/
+
+    private JSONObject loadJSONFromFile(String fileName) {
+        try {
+            File file = new File(getFilesDir(), fileName);
+            FileInputStream fis = new FileInputStream(file);
+            byte[] data = new byte[(int) file.length()];
+            fis.read(data);
+            fis.close();
+            String json = new String(data, "UTF-8");
             return new JSONObject(json);
         } catch (IOException | JSONException e) {
             e.printStackTrace();
