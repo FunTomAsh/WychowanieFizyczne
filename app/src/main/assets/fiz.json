@@ -7,7 +7,8 @@
       {"exercise": { "exNr": 2, "exName": "Plank","imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 30 sekund."}},
       {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 15 razy."}},
       {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 10 powtórzeń na każdą stronę."}},
-      {"exercise": { "exNr": 5, "exName": "Wykroki w przód", "imageName": "wykrokiwprzod", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 12 powtórzeń na każdą nogę."}}
+      {"exercise": { "exNr": 5, "exName": "Wykroki w przód", "imageName": "wykrokiwprzod", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 12 powtórzeń na każdą nogę."}},
+      {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
     ]
   },
     {
@@ -18,7 +19,8 @@
         {"exercise": { "exNr": 2, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
         {"exercise": { "exNr": 3, "exName": "Wykroki w przód", "imageName": "wykrokiwprzod", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 12 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 10 razy."}},
-        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 30 sekund, dbając o prostą linię od głowy do pięt."}}
+        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 30 sekund, dbając o prostą linię od głowy do pięt."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     },
     {
@@ -29,7 +31,8 @@
         {"exercise": { "exNr": 2, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 15 razy."}},
         {"exercise": { "exNr": 3, "exName": "Plank", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 30 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
-        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}}      ]
+        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}      ]
     }, {
       "day": 5,
       "finished" : false,
@@ -38,7 +41,8 @@
         {"exercise": { "exNr": 2, "exName": "Plank","imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 45 sekund."}},
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 20 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 12 powtórzeń na każdą stronę."}},
-        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 6,
@@ -48,7 +52,8 @@
         {"exercise": { "exNr": 2, "exName":"Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
         {"exercise": { "exNr": 3, "exName": "Wykroki w przód", "imageName": "wykrokiwprzod", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 15 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 13 razy."}},
-        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 45 sekund, dbając o prostą linię od głowy do pięt."}}
+        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 45 sekund, dbając o prostą linię od głowy do pięt."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 7,
@@ -58,7 +63,8 @@
         {"exercise": { "exNr": 2, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 18 razy."}},
         {"exercise": { "exNr": 3, "exName": "Plank", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 45 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
-        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 9,
@@ -68,7 +74,8 @@
         {"exercise": { "exNr": 2, "exName": "Plank","imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę."}},
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 25 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 15 powtórzeń na każdą stronę."}},
-        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 10,
@@ -78,7 +85,8 @@
         {"exercise": { "exNr": 2, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
         {"exercise": { "exNr": 3, "exName": "Wykroki w przód", "imageName": "wykrokiwprzod", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 18 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 15 razy."}},
-        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę, dbając o prostą linię od głowy do pięt."}}
+        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę, dbając o prostą linię od głowy do pięt."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 11,
@@ -88,7 +96,8 @@
         {"exercise": { "exNr": 2, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 20 razy."}},
         {"exercise": { "exNr": 3, "exName": "Plank", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę."}},
         {"exercise": { "exNr": 4, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
-        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 13,
@@ -98,7 +107,8 @@
         {"exercise": { "exNr": 2, "exName": "Plank","imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę i 15 sekund."}},
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 23 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 18 powtórzeń na każdą stronę."}},
-        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 14,
@@ -108,7 +118,8 @@
         {"exercise": { "exNr": 2, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
         {"exercise": { "exNr": 3, "exName": "Wykroki w przód", "imageName": "wykrokiwprzod", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 20 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 18 razy."}},
-        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę i 15 sekund, dbając o prostą linię od głowy do pięt."}}
+        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę i 15 sekund, dbając o prostą linię od głowy do pięt."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 15,
@@ -118,7 +129,8 @@
         {"exercise": { "exNr": 2, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 22 razy."}},
         {"exercise": { "exNr": 3, "exName": "Plank", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę i 15 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
-        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 17,
@@ -128,7 +140,8 @@
         {"exercise": { "exNr": 2, "exName": "Plank","imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę i 30 sekund."}},
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 25 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 20 powtórzeń na każdą stronę."}},
-        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 18,
@@ -138,7 +151,8 @@
         {"exercise": { "exNr": 2, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
         {"exercise": { "exNr": 3, "exName": "Wykroki w przód", "imageName": "wykrokiwprzod", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 20 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 20 razy."}},
-        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę i 30 sekund, dbając o prostą linię od głowy do pięt."}}
+        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę i 30 sekund, dbając o prostą linię od głowy do pięt."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 19,
@@ -148,7 +162,8 @@
         {"exercise": { "exNr": 2, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 25 razy."}},
         {"exercise": { "exNr": 3, "exName": "Plank", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę i 30 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
-        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 21,
@@ -158,7 +173,8 @@
         {"exercise": { "exNr": 2, "exName": "Plank","imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę i 45 sekund."}},
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 27 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 22 powtórzenia na każdą stronę."}},
-        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 22,
@@ -168,7 +184,8 @@
         {"exercise": { "exNr": 2, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
         {"exercise": { "exNr": 3, "exName": "Wykroki w przód", "imageName": "wykrokiwprzod", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 22 powtórzenia na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 22 razy."}},
-        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę o 45 sekund, dbając o prostą linię od głowy do pięt."}}
+        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę o 45 sekund, dbając o prostą linię od głowy do pięt."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 23,
@@ -178,7 +195,8 @@
         {"exercise": { "exNr": 2, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 27 razy."}},
         {"exercise": { "exNr": 3, "exName": "Plank", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę i 45 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
-        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     },{
       "day": 25,
@@ -188,7 +206,8 @@
         {"exercise": { "exNr": 2, "exName": "Plank","imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 2 minuty."}},
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 30 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 25 powtórzeń na każdą stronę."}},
-        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     },{
       "day": 26,
@@ -198,7 +217,8 @@
         {"exercise": { "exNr": 2, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
         {"exercise": { "exNr": 3, "exName": "Wykroki w przód", "imageName": "wykrokiwprzod", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 25 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 25 razy."}},
-        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 2 minuty, dbając o prostą linię od głowy do pięt."}}
+        {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 2 minuty, dbając o prostą linię od głowy do pięt."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }, {
       "day": 27,
@@ -208,7 +228,8 @@
         {"exercise": { "exNr": 2, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 30 razy."}},
         {"exercise": { "exNr": 3, "exName": "Plank", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 2 minuty."}},
         {"exercise": { "exNr": 4, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
-        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     },{
       "day": 29,
@@ -218,7 +239,8 @@
         {"exercise": { "exNr": 2, "exName": "Plank","imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 2 minuty i 15 sekund."}},
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 32 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 28 powtórzeń na każdą stronę."}},
-        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     },{
       "day": 30,
@@ -228,7 +250,8 @@
         {"exercise": { "exNr": 2, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 32 razy."}},
         {"exercise": { "exNr": 3, "exName": "Plank", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 2 minuty i 30 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Scyzoryki", "imageName": "scyzoryki", "exDesc": "Połóż się na plecach, unieś nogi prosto do góry i dynamicznie opuszczaj oraz podnoś każdą nogę na przemian, nie dotykając podłogi. Wykonaj 3 serie po 12 powtórzeń."}},
-        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}}
+        {"exercise": { "exNr": 5, "exName": "Przyciąganie nóg leżąc", "imageName": "przyciaganienog", "exDesc": "Połóż się na plecach, ręce złożone za głową. Przyciągaj kolana do klatki, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
+        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
       ]
     }]
 }
