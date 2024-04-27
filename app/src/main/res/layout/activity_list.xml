@@ -191,7 +191,7 @@
         <TextView
             android:id="@+id/text_zad6"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="90dp"
             app:backgroundTint="@null"
             android:backgroundTint="#fefefe"
             android:paddingVertical="6dp"

@@ -8,7 +8,7 @@
       {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 15 razy."}},
       {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 10 powtórzeń na każdą stronę."}},
       {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę, starając się utrzymać równomierny rytm."}},
-      {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+      {"exercise": { "exNr": 6, "exName": "Kurczak z brokułami po chińsku", "imageName": "kurczak_z_brokulami_po_chinsku", "exDesc": "Pokrój kurczaka na kawałki i podsmaż na patelni z odrobiną oleju sezamowego. Dodaj posiekane brokuły i sos sojowy, smażając wszystko razem aż kurczak będzie gotowy i brokuły lekko chrupiące. Podawaj posypane prażonymi orzeszkami ziemnymi i posiekaną cebulką dymką. Gotowe!"}}
     ]
   },
     {
@@ -20,7 +20,7 @@
         {"exercise": { "exNr": 3, "exName": "Wykroki", "imageName": "wykroki", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 12 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 10 razy."}},
         {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 30 sekund, dbając o prostą linię od głowy do pięt."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Pierś z kurczaka z ziemniaki i brokułami", "imageName": "piers_z_brokulami", "exDesc": "Pokrój pierś z kurczaka na kawałki i obsmaż na patelni. Ułóż na blasze ziemniaki i brokuły, piecz około 25 minut w 200 stopniach Celsjusza. Gotowe danie podawaj z ulubionym sosem lub jogurtem."}}
       ]
     },
     {
@@ -32,7 +32,7 @@
         {"exercise": { "exNr": 3, "exName": "Planka", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 30 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę, starając się utrzymać równomierny rytm."}},
         {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "unoszenienoglezac", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 12 powtórzeń."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Zapiekanka z kurczakiem i ziemniakami", "imageName": "zapiekank_z_kurczakiem", "exDesc": "Pokrój ziemniaki i ułóż je na blasze, następnie dodaj pokrojoną pierś z kurczaka. Posyp całość ulubionymi przyprawami, np. solą, pieprzem i ziołami prowansalskimi. Piecz w piekarniku nagrzanym do 200°C przez około 30-35 minut, aż kurczak będzie dobrze ugotowany i ziemniaki będą chrupiące."}}
       ]
     }, {
       "day": 5,
@@ -43,7 +43,7 @@
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 20 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 12 powtórzeń na każdą stronę."}},
         {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę i 30 sekund, starając się utrzymać równomierny rytm."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Zapiekanka z makaronem", "imageName": "zapiekanka_z_makaronem", "exDesc": "Ugotuj makaron według instrukcji na opakowaniu, odcedź i odstaw na bok. W rondlu podsmaż mielone mięso z cebulą i czosnkiem, dodaj sos pomidorowy oraz ulubione przyprawy, połącz z ugotowanym makaronem, przełóż do formy żaroodpornej, posyp startym serem i zapiekaj w piekarniku przez około 20-25 minut. Gotowe!"}}
       ]
     }, {
       "day": 6,
@@ -54,7 +54,7 @@
         {"exercise": { "exNr": 3, "exName": "Wykroki", "imageName": "wykroki", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 15 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 13 razy."}},
         {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 45 sekund, dbając o prostą linię od głowy do pięt."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Kurczak po tajsku", "imageName": "kurczak_po_tajsku", "exDesc": "Pokrój pierś z kurczaka na kawałki i podsmaż na patelni z olejem sezamowym. Dodaj pokrojoną paprykę, cebulę i cukinię, a następnie zalej całość sosem sojowym i mlekiem kokosowym. Gotuj przez około 10-15 minut, aż kurczak będzie dobrze ugotowany, podawaj posypane posiekaną kolendrą."}}
       ]
     }, {
       "day": 7,
@@ -65,7 +65,7 @@
         {"exercise": { "exNr": 3, "exName": "Planka", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 45 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę i 30 sekund, starając się utrzymać równomierny rytm."}},
         {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "unoszenienoglezac", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 20 powtórzeń."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Ramen Shoyu", "imageName": "ramen", "exDesc": "Gotuj jajka na twardo, obierz je i odstaw na bok. W garnku zagotuj bulion warzywny z sosem sojowym i dodaj ugotowane makaron ramen oraz plasterki gotowanego mięsa, gotuj przez około 3-4 minuty. Podawaj w miseczce z pokrojonymi jajkami na twardo, plasterkami wędzonego tofu i posiekanym szczypiorkiem. Smacznego!"}}
       ]
     }, {
       "day": 9,
@@ -76,7 +76,7 @@
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 25 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 15 powtórzeń na każdą stronę."}},
         {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę i 45 sekund, starając się utrzymać równomierny rytm."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Makaron z tuńczykiem i pomidorami", "imageName": "makaron_z_tunczykiem", "exDesc": "Ugotuj makaron według instrukcji na opakowaniu, odcedź i odstaw na bok. W rondlu podsmaż posiekany czosnek na odrobinie oliwy, dodaj kawałki pomidorów i odcedzony tuńczyk z puszki, dusząc razem przez kilka minut. Połącz z ugotowanym makaronem, dopraw solą, pieprzem i posyp posiekaną natką pietruszki przed podaniem. Smacznego!"}}
       ]
     }, {
       "day": 10,
@@ -87,7 +87,7 @@
         {"exercise": { "exNr": 3, "exName": "Wykroki", "imageName": "wykroki", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 18 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 15 razy."}},
         {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę, dbając o prostą linię od głowy do pięt."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Szakszuka z soczewicą", "imageName": "szakszuka_z_soczewica", "exDesc": "Rozgrzej patelnię i podsmaż posiekany cebulę oraz czosnek na oliwie z oliwek. Dodaj ugotowaną soczewicę, pokrojone pomidory i dopraw solą, pieprzem oraz ulubionymi przyprawami, a następnie mieszaj przez kilka minut. Zrób zagłębienie w mieszance i roztrzep jajka, gotuj na wolnym ogniu, aż białka się zetną, a żółtka pozostaną lekko płynne, podawaj posypane świeżymi ziołami. Smacznego!"}}
       ]
     }, {
       "day": 11,
@@ -98,7 +98,7 @@
         {"exercise": { "exNr": 3, "exName": "Planka", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę."}},
         {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 1 minutę i 45 sekund, starając się utrzymać równomierny rytm."}},
         {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "unoszenienoglezac", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 15 powtórzeń."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Jajecznica ze szpinakiem i pomidorkami", "imageName": "jajecznica_ze_szpinakiem", "exDesc": "Rozgrzej patelnię i podsmaż posiekany szpinak na odrobinie masła lub oliwy. Dodaj pokrojone pomidorki koktajlowe i roztrzep jajka, mieszaj wszystkie składniki na wolnym ogniu, aż jajka się zetną. Podawaj posypane startym serem i posiekaną natką pietruszki. Smacznego!"}}
       ]
     }, {
       "day": 13,
@@ -109,7 +109,7 @@
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 23 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 18 powtórzeń na każdą stronę."}},
         {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 2 minuty, starając się utrzymać równomierny rytm."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Tortilla z kurczakiem", "imageName": "tortilla_z_kurczakiem", "exDesc": "Pokrój pierś z kurczaka na kawałki i podsmaż na patelni z odrobiną oleju. Dodaj pokrojone warzywa, takie jak papryka, cebula i marchewka, i smaż wszystko razem przez kilka minut. Następnie umieść mieszankę kurczaka i warzyw na tortilli, zawijaj ją i podawaj z ulubionym sosem, np. guacamole lub salsa. Smacznego!"}}
       ]
     }, {
       "day": 14,
@@ -120,7 +120,7 @@
         {"exercise": { "exNr": 3, "exName": "Wykroki", "imageName": "wykroki", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 20 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 18 razy."}},
         {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę i 15 sekund, dbając o prostą linię od głowy do pięt."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Omlet białkowy z nasionami chia", "imageName": "omlet_bialkowy", "exDesc": "Oddziel białka od żółtek i ubij je na sztywną pianę. Delikatnie wmieszaj nasiona chia, dodając odrobinę soli, pieprzu i ulubionych ziół. Smaż na patelni posmarowanej odrobiną oleju, aż omlet będzie ładnie zrumieniony z obu stron. Na koniec dodaj swole ulubione owoce i gotowe!"}}
       ]
     }, {
       "day": 15,
@@ -131,7 +131,7 @@
         {"exercise": { "exNr": 3, "exName": "Planka", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę i 15 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 2 minuty, starając się utrzymać równomierny rytm."}},
         {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "unoszenienoglezac", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 18 powtórzeń."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Ryż z truskawkami i serkiem", "imageName": "ryz_z_truskawkami_i_serkiem", "exDesc": "Ugotuj ryż według instrukcji na opakowaniu i odcedź. Pokrój truskawki na kawałki i wymieszaj z ugotowanym ryżem. Dodaj starty serek homogenizowany i delikatnie wymieszaj, aby składniki się połączyły. Podawaj jako lekkie, letnie danie lub deser."}}
       ]
     }, {
       "day": 17,
@@ -142,7 +142,7 @@
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 25 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 20 powtórzeń na każdą stronę."}},
         {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 2 minuty i 30 sekund, starając się utrzymać równomierny rytm."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Bagietka z wędzonym indykiem", "imageName": "bagietka_z_indykiem", "exDesc": "Nagrzej piekarnik do 180°C. Pokrój bagietkę na kromki i delikatnie skrop je oliwą z oliwek. Na każdej kromce ułóż plastry wędzonego indyka, a następnie zapiecz w piekarniku przez około 5-7 minut, aż bagietka będzie chrupiąca, a indyk lekko przypieczony. Podawaj jako szybki i smaczny posiłek lub przekąskę."}}
       ]
     }, {
       "day": 18,
@@ -153,7 +153,7 @@
         {"exercise": { "exNr": 3, "exName": "Wykroki", "imageName": "wykroki", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 20 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 20 razy."}},
         {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę i 30 sekund, dbając o prostą linię od głowy do pięt."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Meksykańskie burrito", "imageName": "meksykanski_burrito", "exDesc": "Rozgrzej patelnię i podsmaż mięso mielone z dodatkiem przypraw meksykańskich, takich jak chili, kumin i papryka w proszku. Dodaj pokrojoną cebulę i paprykę, smażając aż będą miękkie. Na tortilli ułóż warstwę gotowanego ryżu, mięsa z warzywami, pokrojonych pomidorów, sera i sosów. Zwijaj tortillę, formując burrito."}}
       ]
     }, {
       "day": 19,
@@ -164,7 +164,7 @@
         {"exercise": { "exNr": 3, "exName": "Planka", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę i 30 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 2 minuty i 30 sekund, starając się utrzymać równomierny rytm."}},
         {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "unoszenienoglezac", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 20 powtórzeń."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Zapiekanka z serem i papryką", "imageName": "zapiekanka_z_serem", "exDesc": "Pokrój paprykę na paski i podsmaż na patelni przez kilka minut. W naczyniu żaroodpornym ułóż warstwę kromek pieczywa, posyp serem, a następnie dodaj podsmażoną paprykę. Powtórz warstwy, aż skończą się składniki, zakończając warstwą sera na wierzchu. Zapiekaj w piekarniku nagrzanym do 180°C przez około 15-20 minut."}}
       ]
     }, {
       "day": 21,
@@ -175,7 +175,7 @@
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 27 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 22 powtórzenia na każdą stronę."}},
         {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 3 minuty, starając się utrzymać równomierny rytm."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Placuszki bananowe", "imageName": "placki_bananowe", "exDesc": "Rozgnieć dojrzałe banany widelcem w misce, a następnie dodaj do nich jajka i wymieszaj, aż powstanie jednolita masa. Stopniowo dodawaj mąkę pszenną, mieszając, aż osiągniesz konsystencję gęstego ciasta na placki. Na rozgrzanej patelni z odrobiną oleju smaż placki z obu stron na złoty kolor. Podawaj gorące placki bananowe z ulubionymi dodatkami."}}
       ]
     }, {
       "day": 22,
@@ -186,7 +186,7 @@
         {"exercise": { "exNr": 3, "exName": "Wykroki", "imageName": "wykroki", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 22 powtórzenia na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 22 razy."}},
         {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 1 minutę o 45 sekund, dbając o prostą linię od głowy do pięt."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Tortilla z hummusem", "imageName": "tortilla_z_humusem", "exDesc": "Nałóż hummus na tortillę, rozprowadzając go równomiernie na całej powierzchni. Posyp warstwę hummusu ulubionymi dodatkami, takimi jak pokrojona papryka, ogórek, pomidory, sałata czy plasterki sera. Zwijaj tortillę, formując roladki, i podawaj jako szybką i smaczną przekąskę lub lekki posiłek. Smacznego!."}}
       ]
     }, {
       "day": 23,
@@ -197,7 +197,7 @@
         {"exercise": { "exNr": 3, "exName": "Planka", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 1 minutę i 45 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 3 minuty, starając się utrzymać równomierny rytm."}},
         {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "unoszenienoglezac", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 22 powtórzeń."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Bajgle z pastą z zielonego groszku", "imageName": "bajgle_z_pasta_z_groszku", "exDesc": "Przygotuj pastę z zielonego groszku, mieszając ugotowany i odcedzony groszek z odrobiną oliwy z oliwek, czosnkiem, sokiem z cytryny i solą w blenderze, aż uzyskasz gładką konsystencję. Rozgrzej piekarnik do 180°C i podziel bajgle na pół. Rozsmaruj pastę z zielonego groszku na każdej połówce. Zapiekaj w piekarniku 5-7 minut."}}
       ]
     },{
       "day": 25,
@@ -208,7 +208,7 @@
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 30 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 25 powtórzeń na każdą stronę."}},
         {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 3 minuty i 30 sekund, starając się utrzymać równomierny rytm."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Burrito bowl z ryżem", "imageName": "burrito_bowl_z_ryzem", "exDesc": "Ugotuj ryż według instrukcji na opakowaniu. Na dnie miseczki ułóż ugotowany ryż, a następnie dodaj warstwę ulubionych składników, takich jak fasola czarna, kukurydza, pokrojona papryka, cebula, pomidory, guacamole i plasterki limonki. Posyp całość ulubionymi przyprawami, takimi jak kumin, papryka w proszku i sól. Gotowe!"}}
       ]
     },{
       "day": 26,
@@ -219,7 +219,7 @@
         {"exercise": { "exNr": 3, "exName": "Wykroki", "imageName": "wykroki", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zrób krok do przodu prawą nogą, tak aby obie nogi były zgięte pod kątem prostym. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 3 serie po 25 powtórzeń na każdą nogę."}},
         {"exercise": { "exNr": 4, "exName": "Pompki", "imageName": "pompki", "exDesc": "Połóż się na podłodze, opierając dłonie na szerokości barków. Wyprostuj ramiona i nogi, a następnie opuść ciało, zginając łokcie. Wróć do pozycji wyjściowej. Powtórz 25 razy."}},
         {"exercise": { "exNr": 5, "exName": "Deska na dłoniach", "imageName": "deska", "exDesc": "Przyjmij pozycję deski na rękach, opierając się na dłoniach i palcach stóp. Trzymaj tę pozycję przez 2 minuty, dbając o prostą linię od głowy do pięt."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Kurczak w sosie paprykowym z ryżem", "imageName": "kurczak_w_sosie_paprykowym", "exDesc": "Pokrój filety z kurczaka na kawałki i podsmaż na patelni. W osobnym garnku przygotuj sos paprykowy, podsmażając cebulę, paprykę i czosnek, a następnie dodając przecier pomidorowy i ulubione przyprawy. Połącz podsmażone kurczaka z sosem paprykowym i podawaj razem z ugotowanym ryżem. Smacznego!"}}
       ]
     }, {
       "day": 27,
@@ -230,7 +230,7 @@
         {"exercise": { "exNr": 3, "exName": "Planka", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 2 minuty."}},
         {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 3 minuty i 30 sekund, starając się utrzymać równomierny rytm."}},
         {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "unoszenienoglezac", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 25 powtórzeń."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Warzywna sałatka z serkiem wiejskim i grzankami", "imageName": "salatka_z_serkiem_wiejskim_i_grzankami", "exDesc": "Pokrój sałatę oraz dodatki, takie jak pomidory, ogórki i paprykę, na drobne kawałki. Wymieszaj je w misce z sierkiem wiejskim, który możesz rozdrobnić widelcem. Dodaj chrupiące grzanki i polej wszystko ulubionym dressingiem, na przykład na bazie octu balsamicznego lub jogurtowym. Delikatnie wymieszaj, aby składniki się połączyły, i od razu podawaj."}}
       ]
     },{
       "day": 29,
@@ -241,7 +241,7 @@
         {"exercise": { "exNr": 3, "exName": "Przysiady", "imageName": "przysiady", "exDesc": "Stań prosto z nogami rozstawionymi na szerokość bioder. Zginaj kolana i opuszczaj ciało, jakbyś siadał na niewidzialnym krześle. Wróć do pozycji wyjściowej. Powtórz 32 razy."}},
         {"exercise": { "exNr": 4, "exName": "Skłony boczne", "imageName": "sklonyboczne", "exDesc": "Stań prosto, nogi rozstawione na szerokość bioder. Unieś prawą rękę nad głowę, a następnie pochyl tułów w lewą stronę, jednocześnie napinając boczną stronę tułowia. Wróć do pozycji wyjściowej i powtórz na drugą stronę. Wykonaj 28 powtórzeń na każdą stronę."}},
         {"exercise": { "exNr": 5, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 4 minuty, starając się utrzymać równomierny rytm."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Pulpety indycze nadziewane mozzarellą", "imageName": "pulpety_indycze_nadziewane_mozzarella", "exDesc": "Przygotuj mięso mielone z indyka i wymieszaj je z ulubionymi przyprawami oraz bułką tartą. Uformuj niewielkie pulpety, a następnie w każdym zrośnij kawałek mozzarelli. Smaż pulpety na patelni lub zapiekaj w piekarniku, aż będą dobrze ugotowane, a ser w środku się roztopi. Gotowe!"}}
       ]
     },{
       "day": 30,
@@ -252,7 +252,7 @@
         {"exercise": { "exNr": 3, "exName": "Planka", "imageName": "plank", "exDesc": "Przyjmij pozycję na podłodze podpartej na przedramionach i palcach stóp, utrzymując ciało proste jak deska. Trzymaj tę pozycję przez 2 minuty i 30 sekund."}},
         {"exercise": { "exNr": 4, "exName": "Bieg w miejscu", "imageName": "biegwmiejscu", "exDesc": "Rozpocznij bieg w miejscu, unosząc kolana wysoko. Utrzymuj tempo przez 4 minuty, starając się utrzymać równomierny rytm."}},
         {"exercise": { "exNr": 5, "exName": "Unoszenie nóg leżąc", "imageName": "unoszenienoglezac", "exDesc":"Połóż się na plecach, ręce złożone za głową. Unieś nogi prosto w górę, trzymając je razem. Opuszczaj nogi powoli do pozycji prawie na poziomie podłogi, a następnie wracaj do pozycji wyjściowej. Powtórz 3 serie po 28 powtórzeń."}},
-        {"exercise": { "exNr": 6, "exName": "Niam-niam", "imageName": "pullups", "exDesc": "Recept dania."}}
+        {"exercise": { "exNr": 6, "exName": "Łosoś teriyaki z soczewicą", "imageName": "losos_teriyaki", "exDesc": "Pokrój filety z łososia na porcje i skrop sosem teriyaki. Smaż na patelni przez kilka minut z każdej strony, aż będą dobrze ugotowane. Podawaj z ugotowaną soczewicą jako zdrowe i smaczne danie główne. Smacznego!"}}
       ]
     }]
 }
